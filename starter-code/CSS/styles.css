@@ -1,0 +1,149 @@
+body {
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* 
+Keys:
+#0B0D17
+#D0D6F9
+#FFFFFF
+
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif;
+font-family: 'Vollkorn', serif;
+ */
+
+ h1 {
+    font-size: 150px;
+    font-family: 'Vollkorn', serif;
+    padding: 0;
+    margin: 0 0 0 0;
+    line-height: normal;
+    font-weight: lighter;
+ }
+
+ h2 {
+    font-size: 100px;
+    font-family: 'Vollkorn', serif;
+}
+
+h3 {
+    font-size: 56px;
+    font-family: 'Vollkorn', serif;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
+}
+
+h5 {
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: lighter;
+    margin: 0 0 0 0;
+    padding-left: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.menu {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 55%;
+    padding:30px 15px 30px 15px;
+    margin: 0px;
+    text-align: center;
+    letter-spacing: .2em;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    font-size: 16px;
+}
+
+.menuactive {
+    border: 0;
+    margin: 0 2em 0 2em;
+    border-color: white;
+    border-bottom: 2px;
+    color: white;
+    border-style: solid;
+    text-decoration: none;
+    padding-bottom: 28px;
+}
+
+.menuitem {
+    color: white;
+    margin: 0 2em 0 2em;
+    text-decoration: none;
+}
+
+.header {
+    margin: 0 0 0 0;
+    max-width: max-content;
+    padding: 100px;
+}
+
+.headerline {
+    width: 700px;
+    border-color: rgba(255,255,255,0.5);
+    border-top: 2px;
+    display: inline-block;
+    position: absolute;
+    top:62px;
+    left: 175px;
+    
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 49px;
+    left: 70px;
+}
+
+.mid-container {
+    padding: 50px;
+}
+
+.mid-left {
+    width: 27%;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+
+}
+
+.button {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 18%;
+    bottom: 20%;
+}
+
+.buttontext {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20%;
+    text-decoration: none;
+    color: #0B0D17;
+    font-weight: lighter;
+    letter-spacing: 4.75px;
+}
